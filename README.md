@@ -34,4 +34,4 @@ K.S.R.T.C PENSION FORUM is primarily social welfare programme of the Government 
 - Accounts checking (pensioner)
 - Retirement Amount calculation (automatic)
 # MenuTree
-<br><img src="screenshots/Picture2.jpg"><br>
+<br><img src="screenshots/Picture2.emf"><br>
