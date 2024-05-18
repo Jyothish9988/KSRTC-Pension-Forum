@@ -1,0 +1,66 @@
+insert into salesdata values('EAST',100,'AGRA','ARJUN',600.5,'M',40000);
+
+ created.
+
+insert into salesdata values('EAST',101,'DELHI','ROBIN',400.5,'M',40000);
+
+ created.
+
+insert into salesdata values('SOUTH',102,'LUCKNOW','ARUN',700,'M',45000);
+
+ created.
+
+insert into salesdata values('EAST',103,'MATHURA','JERIL',800,'M',50000);
+
+ created.
+
+insert into salesdata values('WEST',104,'SURAT','ANIRUDH',600.5,'M',55000);
+
+ created.
+
+insert into salesdata values('NORTH',105,'KHANPUR','ANITHA',500,'F',60000);
+
+ created.
+
+insert into salesdata values('NORTH',106,'MUMBAI',,'LAXMI',550,'F',65000);
+t into salesdata values('NORTH',106,'MUMBAI',,'LAXMI',550,'F',65000)
+                                             *
+ at line 1:
+0936: missing expression
+
+
+insert into salesdata values('NORTH',106,'MUMBAI','LAXMI',550,'F',65000);
+
+ created.
+
+insert into salesdata values('EAST',107,'LUCKNOW','GOPIKA',501,'F',60000);
+
+ created.
+
+insert into salesdata values('WEST',108,'DELHI','KUMAR',660.5,'M',65000);
+
+ created.
+
+insert into salesdata values('NORTH',109,'AGRA','ARSHAD',651.1,'M',70000);
+
+ created.
+
+
+
+create table Employeemaster(empcode int PRIMARY KEY NOT NULL,
+empname char(20) check(empname=upper(empname)),city char(15),
+pin int,
+brcode varchar(20),design char(20) check (design in('PRESIDENT','GM','DEPUTYGM','MANAGER','REPRESENTATIVE','JUNIORASSISTANT')),grade int check(grade in(1,2,3,4,5,6)),
+ salary int,joindate date);
+brcode varchar(20),design char(20) check design in('PRESIDENT','GM','DEPUTYGM','MANAGER','REPRESENTA
+
+
+
+
+
+insert into Employeemaster values(104,'SAJITHA','Arakkal',58319,'F809','REPRESENTATIVE',4,60000,'9-JUN-2002');
+
+ create table javapgm(empid int,lname char(20),fname char(15),project char(15),dept char(16));
+
+
+                                         *

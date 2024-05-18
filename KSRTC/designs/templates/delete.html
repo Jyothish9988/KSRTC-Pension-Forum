@@ -1,0 +1,32 @@
+{literal}
+    <script type="text/javascript">
+    var deleteLinks = document.querySelectorAll('.delete');
+
+for (var i = 0; i < deleteLinks.length; i++) {
+  deleteLinks[i].addEventListener('click', function(event) {
+      event.preventDefault();
+
+      var choice = confirm(this.getAttribute('data-confirm'));
+
+      if (choice)
+       {
+        window.location.href = this.getAttribute('href');
+      }
+  });
+}
+</script>
+    {/literal}
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <td> <a href="/QPOS/" class="btn btn-danger delete"  data-confirm="Are you sure to delete this item?">Delete</a></td>
